@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+}
+
+.session_booking {
+  border: 1.5px solid gray;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  padding: 20px;
+}
+
+.row_1,
+.row_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+
+label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #e9ecef;
+  border-radius: 10px;
+}
+
+.days {
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 17px;
+  border-radius: 3px;
+  margin-top: 20px;
+  cursor: pointer;
+}
